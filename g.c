@@ -111,7 +111,7 @@ int main(void)
 	fclose(fp);
 	//проверка связности
 
-	if (r > (((col - 1) * (col - 2)) / 2)) {
+	if (col > (((r - 1) * (r - 2)) / 2)) {
 		printf("This graph is connected\n");
 	}
 	else {
